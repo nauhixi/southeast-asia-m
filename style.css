@@ -97,3 +97,25 @@ footer {
     align-items: flex-start;
   }
 }
+
+.news-section {
+  padding: 30px;
+}
+
+.news-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+}
+
+.news-card a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news-card p {
+  color: #94a3b8;
+}
