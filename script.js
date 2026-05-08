@@ -22,9 +22,21 @@ const shareChart = new Chart(
   {
     type: "doughnut",
     data: {
-      labels: ["VietJet", "Jeju Air", "Korean Air", "Jin Air"],
-      datasets: [{
-        data: [35, 25, 20, 20]
+      labels: [
+  "T'way Air",
+  "Jeju Air",
+  "Jin Air",
+  "Korean Air",
+  "VietJet Air",
+  "Vietnam Airlines",
+  "Air Busan",
+  "Eastar Jet",
+  "Air Seoul"
+],
+
+datasets: [{
+  data: [18, 16, 14, 12, 20, 8, 5, 4, 3]
+}]
       }]
     }
   }
