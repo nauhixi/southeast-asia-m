@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICN-CXR Route Intelligence</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <h1>ICN ↔ CXR Route Intelligence</h1>
+      <p>인천 - 나트랑 노선 여행시장 대시보드</p>
+    </div>
+    <div class="update-box">
+      <span>Last Update</span>
+      <strong id="updateTime"></strong>
+    </div>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <h3>평균 왕복 운임</h3>
+      <p>₩412,000</p>
+    </div>
+    <div class="card">
+      <h3>최저가 항공사</h3>
+      <p>VietJet Air</p>
+    </div>
+    <div class="card">
+      <h3>공급 좌석 추정</h3>
+      <p>34,200석</p>
+    </div>
+    <div class="card">
+      <h3>전주 대비</h3>
+      <p class="green">-4.2%</p>
+    </div>
+  </section>
+
+  <section class="chart-section">
+    <div class="chart-card">
+      <h2>30일 평균 운임 추이</h2>
+      <canvas id="priceChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h2>항공사 공급 비중</h2>
+      <canvas id="shareChart"></canvas>
+    </div>
+  </section>
+
+  <section class="comment-section">
+    <h2>여행시장 동향 코멘트</h2>
+    <div class="comment-box">
+      5월 연휴 종료 이후 단기 수요 둔화로 LCC 중심 운임 하락세가 나타나고 있습니다.
+      다만 여름 성수기 선판매가 시작되며 6~7월 출발편 가격은 점진적 상승 흐름을 보이고 있습니다.
+      항공사 간 공급 경쟁이 심화되면서 특가 프로모션 빈도도 증가하는 모습입니다.
+    </div>
+  </section>
+
+  <footer>
+    ICN-CXR Aviation Dashboard · Auto Updated Daily 08:00 KST
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
