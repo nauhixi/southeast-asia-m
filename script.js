@@ -17,27 +17,3 @@ const priceChart = new Chart(
   }
 );
 
-const shareChart = new Chart(
-  document.getElementById("shareChart"),
-  {
-    type: "doughnut",
-    data: {
-      labels: [
-  "T'way Air",
-  "Jeju Air",
-  "Jin Air",
-  "Korean Air",
-  "VietJet Air",
-  "Vietnam Airlines",
-  "Air Busan",
-  "Eastar Jet",
-  "Air Seoul"
-],
-
-datasets: [{
-  data: [18, 16, 14, 12, 20, 8, 5, 4, 3]
-}]
-      }]
-    }
-  }
-);
